@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Custom premium scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617; /* Slate 950 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6d28d9; /* Purple 700 */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6; /* Violet 500 */
+}
+
+/* Custom visual pulse glows and smooth layouts */
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 15s linear infinite;
+}
+
+/* Glassmorphism helpers for light and dark themes */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}

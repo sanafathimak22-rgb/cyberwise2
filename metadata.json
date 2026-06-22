@@ -1,0 +1,6 @@
+{
+  "name": "Cyberwise",
+  "description": "A premium academic and technical educational institute in Perinthalmanna, Kerala, bridging academic learning with real industry careers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
